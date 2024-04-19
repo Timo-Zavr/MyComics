@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: rgb(69, 88, 37);
+    background-position: center;
+    background-position: bottom;
+}
+
+.header {
+    height: 100vh;
+    background-color: rgb(93, 119, 49);
+    background-image: url(./images/Head.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content {
+    height: 100vh;
+    /* border-top: 5px solid black; */
+    position: relative
+}
+
+table {
+    width: 50px;
+    height: 1vh;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr, td {
+    border: 10px solid rgb(0, 0, 0);
+    vertical-align: bottom;
+}
+
+
+
+a {
+    display: block;
+    text-decoration:none;
+    background-color: #894AFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    position: absolute;
+    right: 210px;
+    bottom: 75px;
+    text-decoration: none;
+}
